@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'BYekan';
+	src: url('../fonts/BYekan.eot?#') format('eot'), url('../fonts/BYekan.woff') format('woff'), url('../fonts/BYekan.ttf') format('truetype');
+}
+body {
+	font-family: 'BYekan', Tahoma !important;
+	color: #FFF !important;
+}
+.box {
+	background-color: #c4ac88;
+	padding: 5px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#logo {
+	transition: all .5s ease-in-out;
+}
+#logo:hover {
+	transform: rotate(360deg) scale(1, 1);
+}
+.navbar-default {
+	background-color: #dd5540 !important;
+	border-color: #E7E7E7 !important;
+}
+.navbar-nav li {
+	color: #FFF !important;
+}
+.navbar-nav li :hover {
+	color: #c4ac88 !important;
+}
+.navbar-brand {
+	color: #FFF !important;
+}
+.navbar-brand:hover {
+	color: #c4ac88 !important;
+}
+#bx {
+	padding: 25px;
+}
+.btn1 {
+	background-color: #69574d !important;
+}
+.trans {
+	transition: all .5s ease-in-out;
+}
+.trans:hover {
+	transform: rotate(360deg) scale(1.1, 1.1)
+}
+.thumb {
+	transition: all .5s ease-in-out;
+}
+.thumb:hover {
+	transform: scale(1.1, 1.1);
+}
+.hr
+{
+	width:auto;
+	height:3px;
+	background-color:#fff;
+}
+.boxdn
+{
+	padding:10px;
+	background-color: #768bf0;
+	height:200px;
+	margin-bottom:2px;
+}
+.bxbtn
+{
+	background-color: #d41d4a;
+	margin-bottom:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+
+}
